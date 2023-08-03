@@ -1,0 +1,31 @@
+:root {
+  --theme-color:#109148;
+  --font-color:#222222;
+};
+
+*{
+  box-sizing: border-box;
+}
+.myResume {
+
+  font-family: 'Poppins';
+  font-weight: 400px;
+  font-size: 18px;
+}
+.header {
+  height: 148px;
+  width: 100vw;
+  color: white;
+  background-color: var(--theme-color);
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 10vw;
+  padding-top: 43px;
+}
+@media only screen and (max-width: 1200px){
+    .header{
+      font-size: 24px;
+      height: 30vw;
+      padding-top: 12vw;
+    }
+}

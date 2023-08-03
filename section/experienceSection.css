@@ -1,0 +1,116 @@
+.experiences{
+  
+    background-color: var(--theme-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topic {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.box {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.box img {
+    height: 35vw;
+}
+.expBox{
+    width: 60%;
+}
+.experience {
+    padding: 15px;
+}
+.aboutCompany {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.period{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.aboutCompany .year {
+    font-weight: 600;
+    font-size: 24px;
+}
+.aboutCompany .months {
+    font-size: 14px;
+}
+
+.aboutCompany .companyName {
+    font-size: 42px;
+    font-weight: 600;
+}
+.company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.position {
+    font-weight: 600;
+    font-size: 24px;
+}
+@media only screen and (max-width: 1200px){
+    .box {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .topic {
+        font-size: 24px;
+    }
+    .expBox{
+        width: 80%;
+    }
+    .aboutCompany{
+        width: 100vw;
+
+    }
+    .company{
+        width: 70%;
+    }
+    .aboutCompany .year {
+        font-size: 18px;
+    }
+    .aboutCompany .months {
+        font-size: 8px;
+    }
+    
+    .aboutCompany .companyName {
+        font-size: 18px;
+    }
+    .myExp {
+        width: 100%;
+    }
+    .position {
+        font-size: 12px;
+    }
+    .jobDescription{
+        font-size: 8px;
+    }
+    .companyDetail{
+        font-size: 12px;
+    }
+    .period{
+        width: 80px;
+        height: 80px;
+    }
+    .box img {
+        height: 350px;
+        width: fit-content;
+    }
+}

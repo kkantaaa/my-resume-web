@@ -1,0 +1,134 @@
+
+.greetingBox {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--font-color);
+    background-color: white;
+}
+.content{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contentBox{
+    width: 80%;
+    
+    
+}
+.greeting{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.content .description{
+
+    font-size: 18px;
+}
+.name{
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 70%;
+}
+
+.button svg {
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+}
+
+.email{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #e17094;
+}
+.phone{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #68aaf3;
+}
+.facebook{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #728cf7;
+}
+.ig{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ff9B70;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    padding-top: 70px;
+}
+img{
+    height: 60vw;
+}
+@media only screen and (max-width: 1200px){
+    .greetingBox{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .name{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .greeting{
+
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .content .description{
+    
+        font-size: 8px;
+    }
+    .contentBox{
+        width: 50%;
+    }
+    .contact{
+        flex-direction: column;
+        padding-top: 30px ;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .button svg {
+        width: 30px;
+        height: 30px;
+    }
+    .email{
+        width: 30px;
+        height: 30px;
+    }
+    .phone{
+        width: 30px;
+        height: 30px;
+    }
+    .facebook{
+        width: 30px;
+        height: 30px;
+    }
+    .ig{
+        width: 30px;
+        height: 30px;
+    }
+
+}

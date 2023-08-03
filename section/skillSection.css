@@ -1,0 +1,109 @@
+.skills{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--font-color);
+    background-color: white;
+}
+.softSkills{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.subTopic {
+    padding-bottom: 30px;
+    padding-left: 30px ;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-decoration-color:var(--theme-color) ;
+    text-decoration-thickness: 5px;
+}
+.softSkillBox{
+    display: flex;
+
+    justify-content: space-evenly;
+    width: 100%;
+}
+.softSkill{
+    width: 300px;
+    height: 250px;
+    padding: 8px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 50px 15px #b6cfb683 ;
+}
+.softSkill:hover{
+    background-color: #b6cfb6;
+    color: white;
+}
+.gerne{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top:20px;
+    padding-bottom: 15px;
+}
+.softSkill .description{
+    text-indent: 20px;
+    font-weight: 300;
+    padding: 8px;
+}
+.hardSkills{
+    width: 100%;
+}
+.hardSkillBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hardSkill{
+    width: 300px;
+    height: 250px;
+    padding: 8px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 50px 15px #b6cfb683; 
+    margin-bottom: 70px;
+}
+.hardSkill:hover{
+    background-color: #cce2cb;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px){
+    .subTopic{
+        padding: 0px;
+    }
+    .softSkills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .softSkillBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .softSkill{
+        margin: 20px;
+        width: 320px;
+    }
+    .hardSkills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hardSkillBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hardSkill{
+        margin: 20px;
+        width: 320px;
+    }
+
+}

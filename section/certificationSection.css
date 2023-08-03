@@ -1,0 +1,25 @@
+.certifications{
+    background-color: #1b2228;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    width: 100vw;
+}
+.certification{
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+.time{
+    font-weight: 700;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1200px){
+    .time{
+        font-size: 18px;
+    }
+    .certification .description{
+        font-size: 14px;
+    }
+}
