@@ -38,39 +38,47 @@
     justify-content: space-around;
     align-items: center;
     color: white;
-    width: 70%;
+    width: 80%;
 }
 
-.button svg {
-    width: 48px;
-    height: 48px;
+.button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
-.email{
+.button .email {
     width: 48px;
     height: 48px;
     border-radius: 50%;
     background-color: #e17094;
 }
-.phone{
+
+.button .phone {
     width: 48px;
     height: 48px;
     border-radius: 50%;
     background-color: #68aaf3;
 }
-.facebook{
+
+.button .github {
     width: 48px;
     height: 48px;
     border-radius: 50%;
     background-color: #728cf7;
 }
-.ig{
+
+.button .linkedin {
     width: 48px;
     height: 48px;
     border-radius: 50%;
     background-color: #ff9B70;
 }
+
 .contact{
     display: flex;
     justify-content: space-between;
@@ -81,6 +89,7 @@
 img{
     height: 60vw;
 }
+
 @media only screen and (max-width: 1200px){
     .greetingBox{
         flex-direction: column-reverse;
@@ -114,19 +123,19 @@ img{
         width: 30px;
         height: 30px;
     }
-    .email{
+    .button .email{
         width: 30px;
         height: 30px;
     }
-    .phone{
+    .button .phone{
         width: 30px;
         height: 30px;
     }
-    .facebook{
+    .button .github{
         width: 30px;
         height: 30px;
     }
-    .ig{
+    .button .linkedin{
         width: 30px;
         height: 30px;
     }

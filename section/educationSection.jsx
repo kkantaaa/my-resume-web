@@ -16,6 +16,7 @@ function EducationSection () {
                 <div className='topic'>Educations</div>
                 {myEducations.map((item,index) => (
                 <div className='education' key={index}>
+                    <div className='school'>{item.school}</div>
                     <div className='year'>{item.year}</div>
                     <div className='description'>{item.description}</div>
                 </div>

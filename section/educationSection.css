@@ -38,18 +38,21 @@
 .education{
     z-index: 3;
     display: flex;
+    flex-direction: column;
     width: 70%;
     justify-content: center;
+    align-items: center;
     color: white;
+    margin: 30px;
 
 }
-.education .description{
-    width: 60%;
-    
+.school{
+    font-size: 32px;
+    font-weight: 600;
 }
 .education .year {
-    transform: rotate(-45deg);
-    font-size: 24px;
+    
+    font-size: 18px;
     font-weight: 600;
 }
 @media only screen and (max-width: 1200px){
@@ -62,15 +65,18 @@
     }
     .education .year {
         transform: rotate(0);
-        font-size: 18px;
+        font-size: 16px;
 
+    }
+    .school{
+        font-size: 20px;
     }
     .educationBox {
         padding: 5px;
     }
     .education .description{
-        text-indent: 10px;
         width: 70%;
         padding-bottom: 30px;
+        text-align: center;
     }
 }
