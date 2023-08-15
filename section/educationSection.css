@@ -33,12 +33,14 @@
 }
 .educationBox .topic{
     z-index: 2;
+    color: white;
 }
 .education{
     z-index: 3;
     display: flex;
     width: 70%;
     justify-content: center;
+    color: white;
 
 }
 .education .description{
